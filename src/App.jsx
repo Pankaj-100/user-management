@@ -9,7 +9,7 @@ export default function App() {
     <Routes>
       <Route path="/login" element={token ? <Navigate to="/users" /> : <Login />} />
       <Route path="/users" element={token ? <UserList /> : <Navigate to="/login" />} />
-      <Route path="*" element={<Navigate to={token ? "/users" : "/login"} />} />
+
     </Routes>
   )
 }
