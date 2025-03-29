@@ -6,9 +6,13 @@ cd user-management
 
 
 Install dependencies
+
 npm i
+
 Run the project
+
 npm run dev
+
 Features
 ✅ Login authentication (Context API)
 ✅ User list with pagination
