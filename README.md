@@ -1,6 +1,10 @@
 Clone the repository
-git clone https://github.com/Pankaj-100/user-management
+git clone https://github.com/Pankaj-100/user-management.git
+
+
 cd user-management
+
+
 Install dependencies
 npm i
 Run the project
